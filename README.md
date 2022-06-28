@@ -2,6 +2,19 @@
 A tool for batch crawling website's title, description, favicon.
 
 # how to use
+
+```
+git clone https://github.com/jxeng/site-info-crawler.git
+
+cd site-info-crawler
+
+go mod tidy
+
+go build
+
+./site-info-crawler.exe
+```
+
 raw.json
 ```
 [
